@@ -1,4 +1,4 @@
-#ReadMe for Boolean
+# ReadMe for Boolean
 ## Code here is for you to use for your social listening projects.  
 #### This ReadMe only covers the most basic Boolean arguments. I have only added Brandwatch and YouScan queries here, so consult the Query Operator guide for your platform for any necessary changes.
 
