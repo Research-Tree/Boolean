@@ -1,0 +1,64 @@
+<<<Coded for Brandwatch. You might need to change the remarks in the brackets (like this one), code for proximity operators, and/or the title operator towards the end. Brandwatch supports a trailing wildcard after a hashtag. If your platform does not, you might want to add more detailed hashtag terms than are here.>>>
+
+("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2"
+OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) 
+OR
+<<<vaccine brands>>>
+(cominarty OR Tozinameran OR spikevax OR nuvavaxoid)
+OR
+
+<<<The following find more mentions and can also be used for segmentations through tags and categories>>>
+
+<<<variants, etc.>>> ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins" )AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2"))
+
+OR <<<post covid>>> "living with covid" OR "long covid" OR "post covid conditions" OR "post covid syndrome" OR #livingwithcovid* OR #longcovid* OR #postcovid* 
+
+OR  <<<slurs & conspiracies>>> ("china virus" OR plandemic OR scamdemic OR "wuhan flu" OR "wu flu" OR wuflu OR "wuhan virus" 
+OR #chinavirus* OR #chinacoronavirus* OR #wuhanflu* OR #wuflu OR #wuhancoronavirus* OR #wuhanvirus* OR #plandemic* OR #scamdemic*)
+OR((cdc OR @cdc OR fauci OR #fauci* OR gates OR #billgates* OR @billgates OR soros OR #georgesoros OR jew OR jewish OR jews )NEAR/10(5g OR chip OR chipped OR chips OR conspir* OR lie OR lied OR lies OR lying OR puppet OR puppets OR "puppet master" OR scam* OR fraud* OR tower OR towers)) 
+OR ((#darktolight OR "deep state" OR  #deepstate* OR #donaldtrump* OR "drain the swamp" OR #draintheswamp OR fbi OR #fbi OR illuminati OR #illuminati* OR "new world order" OR #nsa OR  #obamagate OR #newworldorder* OR depopulation OR #depopulat* OR #kag OR #maga OR "pizza gate" OR #pizzagate OR "the great reset" OR #thegreatreset OR #trump* OR wwg1wga OR #wwg1wga OR #wwg OR "q" OR qanon OR #q OR #thegreatawakening OR #qanon) AND (("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2" OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) OR ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins") AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR 
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2"))))
+OR
+
+<<<unapproved medications>>> ((hcq OR #hcq* OR chloroquine OR #chloroquine* OR hydroxychloroquine OR #hydroxychloroquine* OR ivermectin OR #ivermectin* OR #paxlovid* OR plaquenil OR #plaquenil* OR "trump pills" OR #trumppills* OR "vitamin d" OR #vitamind* OR zinc OR #zinc* OR 
+
+<<<approved medications>>> biontech OR janssen OR "johnson & johnson" OR moderna OR novavax OR bebtelovimab OR #bebtelovimab OR lagevrio OR #lagevrio OR molnupiravir OR #molnupiravir OR monoclonal OR #monoclonal* OR paxlovid OR #paxlovid* OR remdesivir OR #remdesivir OR vaccine OR vaccines OR vax OR vaxxed OR veklury OR #veklury OR baricitinib OR #baricitinib) AND (("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2" OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) OR ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins") AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR 
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2"))))
+
+OR <<<For Brandwatch and others that support the Title: operator>>>
+(title:("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2"
+OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) 
+OR
+<<<vaccine brands>>>
+(cominarty OR Tozinameran OR spikevax OR nuvavaxoid)
+OR
+
+<<<variants, etc.>>> ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins" )AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2"))
+
+OR <<<post covid>>> "living with covid" OR "long covid" OR "post covid conditions" OR "post covid syndrome" OR #livingwithcovid* OR #longcovid* OR #postcovid* 
+
+OR  <<<slurs & conspiracies>>> ("china virus" OR plandemic OR scamdemic OR "wuhan flu" OR "wu flu" OR wuflu OR "wuhan virus" 
+OR #chinavirus* OR #chinacoronavirus* OR #wuhanflu* OR #wuflu OR #wuhancoronavirus* OR #wuhanvirus* OR #plandemic* OR #scamdemic*)
+OR((cdc OR @cdc OR fauci OR #fauci* OR gates OR #billgates* OR @billgates OR soros OR #georgesoros OR jew OR jewish OR jews )NEAR/10(5g OR chip OR chipped OR chips OR conspir* OR lie OR lied OR lies OR lying OR puppet OR puppets OR "puppet master" OR scam* OR fraud* OR tower OR towers)) 
+OR ((#darktolight OR "deep state" OR  #deepstate* OR #donaldtrump* OR "drain the swamp" OR #draintheswamp OR fbi OR #fbi OR illuminati OR #illuminati* OR "new world order" OR #nsa OR  #obamagate OR #newworldorder* OR depopulation OR #depopulat* OR #kag OR #maga OR "pizza gate" OR #pizzagate OR "the great reset" OR #thegreatreset OR #trump* OR wwg1wga OR #wwg1wga OR #wwg OR "q" OR qanon OR #q OR #thegreatawakening OR #qanon) AND (("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2" OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) OR ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins") AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR 
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2"))))
+OR
+
+<<<unapproved medications>>> ((hcq OR #hcq* OR chloroquine OR #chloroquine* OR hydroxychloroquine OR #hydroxychloroquine* OR ivermectin OR #ivermectin* OR #paxlovid* OR plaquenil OR #plaquenil* OR "trump pills" OR #trumppills* OR "vitamin d" OR #vitamind* OR zinc OR #zinc* OR 
+
+<<<approved medications>>> biontech OR janssen OR "johnson & johnson" OR moderna OR novavax OR bebtelovimab OR #bebtelovimab OR lagevrio OR #lagevrio OR molnupiravir OR #molnupiravir OR monoclonal OR #monoclonal* OR paxlovid OR #paxlovid* OR remdesivir OR #remdesivir OR vaccine OR vaccines OR vax OR vaxxed OR veklury OR #veklury OR baricitinib OR #baricitinib) AND (("2019 ncov" OR covid* OR "covid-19" OR coronavirus* OR "C-19" OR "SARS-CoV-2" OR #covid* OR #coronavirus* OR #c19 OR #2019ncov OR #covid* OR #covid19* OR #coronavirus* OR #coronavirusoutbreak OR #coronaviruspandemic OR #coronavirusupdates OR #coronaviususa OR #convid19us OR #covid19usa OR #sarscov2*) OR ((variant OR variants OR subvariant OR subvariants OR "sub variants" OR mutate OR mutated OR mutation OR mutations OR "spike protein" OR "spike proteins") AND 
+(alpha OR N501Y OR A570D OR D614G OR beta OR gamma OR delta OR L452R OR T478K OR P681R OR 
+omicron OR K417N OR N440K OR G446S OR S477N OR T478K OR E484A OR Q493R OR N501Y OR Y505H 
+OR "BQ.1.1" OR "BQ.1" OR "XBB.1.5" OR "XBB.1.9" OR F486P OR "CH.1.1" OR L452R OR "BA.2" OR "BA.2.12.1" OR "BA.4" OR "BA.5" OR "BA.2.75" OR "BQ.1" OR "B.1.7" OR "B.1.1351" OR "P.1" OR "B.1.617.2")))))
