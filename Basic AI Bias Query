@@ -1,0 +1,16 @@
+<<<Notes on the query syntax - Greater than Less than brackets like those that enclosing this paragraph, are used for walling off remarks text from the Boolean. Syntax for remarks text may vary by platform if it is supported. N/x is a proximity operator. These vary by platform. Some proximity operatore might require enclosing double quotes like "term1 N/2 term2" rather than the parentheses used here. title: finds matches in a post's title, headline or similar. Support and syntax vary by platform. * is the wildcard which will find any trailing text. Support for * varies by platform. Contact Research Tree for deeper or bespoke queries on this topic.>>>
+    
+<<<Generative text or AI brand>>> ((ai OR "a.i." OR artificialintelligence OR "artificial intelligence" OR "machine learning" OR machinelearning OR chatgpt OR chatbot OR chatbots OR "large language model" OR largelanguagemodel OR LLM <<<note on LLM - unless you have a way to force letter case matching this term may cause unwanted results.>>> OR "bing chat*" OR bingchat OR ((LLaMa OR LaMDA) N/10 meta) OR ((copilot)N/2(microsoft)) OR googlebard OR googlegemini OR NLP <<<note on NLP - unless you have a way to force letter case matching this term may cause unwanted results.>>> OR #nlp OR "natural language processing" OR naturallanguageprocessing OR (google N/2 (bard OR gemini)) 
+OR
+<<<Image AI>>>
+("dall e" OR dalle3 OR dalle4 OR midjourney OR "mid journey" OR (dream N/5 wombo) OR (dreamstudio N/5 stability*) OR (imagefx N/5 google) OR ("image creator" N/5 microsoft) OR (firefly N/5 adobe*) OR "Generative AI by Getty" OR (bria N/5 getty)))
+N/20 <<<Simple bias qualifying text>>>
+(bias* OR prejudic*))
+OR
+<<<title: operator only if that or similar is supported>>>
+(title:<<<Generative text or AI brand>>>((ai OR "a.i." OR artificialintelligence OR "artificial intelligence" OR "machine learning" OR machinelearning OR chatgpt OR chatbot OR chatbots OR "large language model" OR largelanguagemodel OR LLM <<<note on LLM - unless you have a way to force letter case matching this term may cause unwanted results.>>> OR "bing chat*" OR bingchat OR ((LLaMa OR LaMDA) N/10 meta) OR ((copilot)N/2(microsoft)) OR googlebard OR googlegemini OR NLP <<<note on NLP - unless you have a way to force letter case matching this term may cause unwanted results.>>> OR #nlp OR "natural language processing" OR naturallanguageprocessing OR (google N/2 (bard OR gemini)) 
+OR
+<<<Image AI>>>
+("dall e" OR dalle3 OR dalle4 OR midjourney OR "mid journey" OR (dream N/5 wombo) OR (dreamstudio N/5 stability*) OR (imagefx N/5 google) OR ("image creator" N/5 microsoft) OR (firefly N/5 adobe*) OR "Generative AI by Getty" OR (bria N/5 getty)))
+N/20 <<<Simple bias qualifying text>>>
+(bias* OR prejudic*)))
