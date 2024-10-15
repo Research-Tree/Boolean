@@ -1,0 +1,11 @@
+NOT 
+(<<<Apolpoprotein B>>>
+("Apolipoprotein B" OR apob OR #apob*
+OR
+title:("Apolipoprotein B" OR apob OR #apob*))
+OR
+<<<Apolpoprotein E>>>
+("Apolipoprotein E" OR apoe OR #apoe* OR "Apolipoprotein E4" OR apoe4
+OR
+title:("Apolipoprotein E" OR "Apolipoprotein E4" OR apoE OR apoe4 #apoe*))
+)
